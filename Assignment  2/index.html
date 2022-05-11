@@ -1,71 +1,122 @@
 <html>
-<head>
 
+<head>
 </head>
 
 <body>
-    
-    <h1>Regstration Form</h1>
+
     <form>
-        <table>
 
-            <tbody>
-                <tr>
-                    <td><label>First Name</label></td>
-                    <td><input type="text" name="fname"></td>
-                </tr>
-                <div>test</div>
-                <tr>
-                    <td><h6>Last Name</h6></td>
-                    <td><input type="text" name="lname"></td>
-                </tr>
+        <fieldset style="background-color: #164C45;color: white;height: 900;">
 
-                <tr>
-                    <td><h6>Age</h6></td>
-                    <td><input type="number" name="age"></td>
-                </tr>
+            <legend style="background-color: #16232E">Personal Data</legend>
 
-                <tr>
-                    <td><h6>Email</h6></td>
-                    <td><input type="email" name="email"></td>
-                </tr>
+                <br><br>
+            <fieldset style="background-color: #BDA523;">
 
-                <tr>
-                    <td><h6>Password</h6></td>
-                    <td><input type="password" name="pass"></td>
-                </tr>
+                <legend style="background-color: #16232E;height: 100;line-height: 600%;">Your Name</legend>
+                <br><br><br>
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <td><label>First Name</label></td>
+                            <td><label>:</label></td>
+                            <td><input type="text" name="fname" placeholder="ex murad"></td>
+                        </tr>
+        
+                        <tr>
+                            <td><label>Second Name</label></td>
+                            <td><label>:</label></td>
+                            <td><input type="text" name="sname" placeholder="ex hassan"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </fieldset>
+            <br><br><br><br>
+                <table>
+    
+                    <tbody style="color: white;font-weight: bold;">
+    
+                         
+                        <tr>
+                            <td><label>Your Phone</label></td>
+                            <td><label>:</label></td>
+                            <td><input type="number" name="phone"></td>
+                        </tr>
+    
+                        <tr>
+                            <td><label>Email</label></td>
+                            <td><label>:</label></td>
+                            <td><input type="email" name="email"></td>
+                        </tr>
+    
+                        <tr>
+                            <td><label>Password</label></td>
+                            <td><label>:</label></td>
+                            <td><input type="password" name="pass"></td>
+                        </tr>
+    
+                        <tr>
+                            <td><label>Re-Password</label></td>
+                            <td><label>:</label></td>
+                            <td><input type="password" name="re-pass"></td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+    
+                <br><br><br>
+
+                <input type="radio" name="gender" value="male">Male
+                <br>
+                <input type="radio" name="gender" value="female">Female
+    
+                <br><br><br>
+
+                <input type="checkbox" name="status" value="student">Student
+                <br>
+                <input type="checkbox" name="status" value="graduated">Graduated
+
+                <br><br><br>
+
+                <select name="time-day">
+                    <optgroup label="saturday">
+                        <option value="11:00am-to-5:00pm">11:00am to 5:00pm</option>
+                    </optgroup>
+
+                    <optgroup label="monday&thursday">
+                        <option value="3:00pm-to-6:00pm">3:00pm to 6:00pm</option>
+                        <option value="6:30pm-to-9:30pm">6:30pm to 9:30pm</option>
+                    </optgroup>
+
+                    <optgroup label="sunday&wednesday">
+                        <option value="11:00am-to-5:00pm">11:00am to 5:00pm</option>
+                        <option value="3:00pm-to-6:00pm">3:00pm to 6:00pm</option>
+                        <option value="6:30pm-to-9:30pm">6:30pm to 9:30pm</option>
+                    </optgroup>
 
 
-            </tbody>
 
-        </table>
 
-        <br>
 
-        <button type="submit">Regster</button>
+                </select>
+                    <br><br>  
+                <button style="background-color: black;" type="submit"><img src="submit.jpg" alt="submit" width="90" height="30" ></button>
+    
+    
+        </fieldset>
+        
+
+
 
 
     </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 
 </body>
-
-
-
 
 </html>

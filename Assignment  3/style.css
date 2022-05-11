@@ -1,0 +1,249 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* header style */
+    .header{
+        background-image: url(images/drew-coffman-1872.jpg);
+        height: 90vh;
+        background-size: 100% 100%;
+        text-align: center; 
+        color: #fff;
+        
+    
+    }
+    button{
+        padding: 20px 40px;
+        border-radius: 5px;
+        color: #fff;
+        margin-top: 40px;
+    }
+    .btn1{
+        background-color: #8e7754;
+        border: solid 2px #8e7754;
+    }
+    .btn2{
+        background-color: transparent;
+        border: solid 2px #fff;
+    }
+    .text{
+
+        padding-top: 300px;
+        width: 40%;
+        margin: auto;
+    }
+    .text h4{
+    font-size: 20px;
+    }
+    .text h1{
+        font-size: 76px;
+        margin-top: 10px;
+    }
+    .text p{
+        font-size: 25px;
+        margin-top: 10px;
+        line-height: 50px;
+    }
+/* nav style */
+    .logo{
+        float: left;
+        padding-top: 30px;
+    }
+    .logo img{
+        height: 48px;
+    }
+    .nav{
+        width: 70%;
+        margin: auto;
+    }
+    .nav-items{
+        float: right;
+        padding-top: 30px;
+    }
+    .nav-items ul{
+        list-style: none;
+    }
+    .nav-items a{
+    color: #fff;
+    text-decoration: none;
+    }
+    .clear-fix{
+        clear: both;
+    }
+    .nav-items li{
+        display: inline;
+        padding-right:20px;
+        font-size:20px;
+    }
+/* about style  */
+    .about-img{
+        width: 600px;
+        height: 500px;
+        float: left;
+        margin-left: 300px;
+
+    }
+    .about-img img{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+    .about-pr{
+        width: 600px;
+        height: 500px;
+        float: right;
+        margin-right: 300px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .about-pr h2{
+        font-size:30px ;
+        padding-top: 10%;
+    }
+    .about-pr p{
+        line-height: 30px;
+        padding-top: 5%;
+    }
+
+    .about-pr li{
+    list-style: none;
+    display: inline;
+    }
+
+/* location style  */
+    #location{
+        background-color: #f8f8f8;
+    }
+    .location-img{
+        width: 600px;
+        height: 500px;
+        float: right;
+        margin-right: 300px;
+
+    }
+    .location-img img{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+    .location-pr{
+        width: 600px;
+        height: 500px;
+        float: left;
+        margin-left: 300px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+    .location-pr h2{
+        font-size:30px ;
+        padding-top: 10%;
+    }
+    .location-pr p{
+        line-height: 30px;
+        padding-top: 5%;
+    }
+
+    .location-pr li{
+    list-style: none;
+    display: inline;
+    }
+/* baking style  */
+    #baking{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .baking-s div{
+        width: 20%;
+        height: 20%;
+        float: left;
+    }
+    .baking-s div img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    .div-1{
+        margin-left: 18%;
+    }
+    .div-2{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #baking p{
+        margin-top:30px;
+        margin-bottom: 70px;
+    }
+/* contact style  */
+    #contact{
+        background-color: #f8f8f8;
+    }
+    .contact-img{
+        width: 600px;
+        height: 500px;
+        float: right;
+        margin-right: 300px;
+
+    }
+    .contact-img img{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+    .contact-pr{
+        width: 600px;
+        height: 500px;
+        float: left;
+        margin-left: 300px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding-right: 40px;
+    }
+    .contact-pr h2{
+        font-size:30px ;
+    }
+    .contact-pr p{
+        line-height: 30px;
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+
+    .contact-pr li{
+    list-style: none;
+    display: inline;
+    }
+/* info style  */
+        #info{
+            background-color: #403d38;
+            height: 400px;
+            padding-top: 40px;
+            color: white;
+        }
+        #info div{
+            width: 17%;
+            float: left;
+            line-height: 50px;
+        }
+        #info div li{
+            text-decoration: underline;
+        }
+        .about-us{
+            margin-left: 15%;
+            margin-right: 4%;
+        }
+/* info style  */
+#end-page{
+    background-color: #353330;
+    height: 300px;  
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+#end-page img{
+    margin-bottom: 30px;
+
+}

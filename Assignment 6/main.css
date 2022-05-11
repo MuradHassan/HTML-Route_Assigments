@@ -1,0 +1,182 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+/*home style*/
+    .home{
+        height: 100vh;
+        background-image: url(img/hero-bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;  
+
+    }
+    .home .leyar{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    nav{
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        color: #fff;
+        position: fixed !important;
+    }
+    .home .content{
+        text-align: center;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .home .content h2{
+        font-size: 80px;
+        color: #fff;
+    }
+    .home .content h3{
+        font-size: 40px;
+        color: #fff;
+        margin-top: 30px;
+    }
+/*about style*/
+    #about{
+
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    #about .about1 img{
+        border-radius: 5px;
+    }
+    #about .about1 ul{
+        list-style: none;
+    }
+    #about .about1 ul span{
+        font-weight: bold
+    }
+    #about .about2{
+        width: 50%;
+    }
+    .brogress p{
+        margin-top: 10px;
+    }
+    .about2 .line{
+        height: 3px;
+        width: 100px;
+        margin-bottom: 50px;
+    }
+    .about2 p{
+        font-size: 20px;
+    }
+/*service style*/
+    .service{
+        text-align: center;
+    }
+    .service .line2{
+        height: 3px;
+        width: 50px;
+        background-color: #0078ff;
+    }
+    .service .continer{
+        width: 70%;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .service .continer .content{
+        width: 400px;
+        border-radius: 5px;
+        margin: 30px 10px;
+        background-color: #fff;
+    }
+/*calcolet style*/
+    .calcolet{
+        text-align: center;
+        background-image: url(img/counters-bg.jpg);
+        background-attachment: fixed;
+    }
+    .calcolet .leyar{
+        background-color: rgba(0, 123, 255, 0.678);
+        color: #fff;
+    }
+    .calcolet .continer{
+        width: 70%;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .calcolet .continer .content{
+        width: 300px;
+        height: 350px;
+        border-radius: 5px;
+        margin: 30px 10px;
+    }
+/*Portfolio style*/
+    .portfolio{
+        text-align: center;
+    }
+    .portfolio .line2{
+        height: 3px;
+        width: 50px;
+        background-color: #0078ff;
+    }
+    .portfolio .content{
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .portfolio .card{
+        width: 450px;
+        text-align: left;
+        margin: 30px 10px;
+
+    }
+    .portfolio .card span{
+        color: #0078ff;
+    }
+    .portfolio .card .icon{
+        border-color: #0078ff !important;
+        border-radius: 50%;
+    }
+    .portfolio .card i{
+        color: #0078ff;
+    }
+    .card img{
+        transition: all 0.5s;
+    }
+    .card:hover img{
+        transform: scale(1.2);
+    }
+/*Carousel style*/
+    .carousel{
+        text-align: center;
+        background-image: url(img/counters-bg.jpg);
+        background-attachment: fixed;
+        height: 600px;
+    }
+    .carousel .leyar{
+        background-color: rgba(0, 123, 255, 0.678);
+        height: 100%;
+        color: #fff;
+    }
+    .carousel-indicators{
+        top: 70%;
+    }
+    .carousel-indicators [data-bs-target]{
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        
+}
+.carousel img{
+    border-radius: 50%;
+
+
+
+}
